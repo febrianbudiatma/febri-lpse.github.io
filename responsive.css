@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* Untuk Tablet */
+
+@media (max-width : 1000px ){
+	
+	.container h1 {
+		font-size: 32px;
+	}
+	
+	.menu {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	
+	.btn {
+		width: 200px;
+	}
+}
+
+/* Untuk Smartphone */
+
+@media (max-width : 670px ){
+	
+	.menu {
+		width: 100%;
+	}
+	
+	.h-kanan {
+		/* 0000 */
+	}
+	
+	.menu-icon {
+		display: block;
+	}
+	
+	.p-atas {
+		text-align: left;
+		padding-top: 130px;
+	}
+	
+	.p-atas h1 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	
+	.p-atas p {
+		font-size: 14px;
+		line-height: 20px;
+		text-align: justify;
+	}
+	
+	.btn {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.p-btn p{
+		text-align: center;
+	}
+	
+	.contact {
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	
+	footer {
+		margin-top: 155px;
+		text-align: center;
+	}
+}
